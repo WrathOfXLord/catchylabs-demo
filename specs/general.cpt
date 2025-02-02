@@ -1,0 +1,98 @@
+# <key> elementlerinde <attr> ozelliginin <value> degerini icerdigi dogrulanir
+* <key> elementlerinde <attr> ozelliginin <value> degerini "icerme" durumu dogrulanir
+
+# <key> elementlerinde <attr> ozelliginin <value> degerini icermedigi dogrulanir
+* <key> elementlerinde <attr> ozelliginin <value> degerini "icermeme" durumu dogrulanir
+
+# Sayfanin en altina dogru kaydirilir
+* Dinamik olarak sayfa sonuna in - max scroll sayisi: "100" - scroll bekleme araligi (ms): "500"
+
+# Sayfa <count> defa asagi kaydirilir
+* Dinamik olarak sayfa sonuna in - max scroll sayisi: <count> - scroll bekleme araligi (ms): "500"
+
+# <key> elementinin tiklanabilir oldugu dogrulanir
+* <key> elementinin gorunur ve tiklanabilir oldugunu en fazla "60" saniye icinde dogrula
+* "250" milisaniye bekle
+
+# <key> elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* "# # elementi tiklanacak..." textindeki "# #" ile isaretli bolumu <key> texti ile degistir ve bastir
+* <key> elementinin tiklanabilir oldugu dogrulanir
+* Elementi bekle ve sonra tikla <key>
+* "# # elementi tiklandi." textindeki "# #" ile isaretli bolumu <key> texti ile degistir ve bastir
+* "250" milisaniye bekle
+
+# <key> elementinin tiklanabilir oldugu dogrulanir ve tiklanir - js
+* "# # elementi tiklanacak..." textindeki "# #" ile isaretli bolumu <key> texti ile degistir ve bastir
+* <key> elementinin tiklanabilir oldugu dogrulanir
+* Isleminiz yapiliyor overlayinin kaybolmasi beklenir
+* <key> elementine javascript ile tikla
+* Isleminiz yapiliyor overlayinin kaybolmasi beklenir
+* "# # elementi tiklandi." textindeki "# #" ile isaretli bolumu <key> texti ile degistir ve bastir
+* "250" milisaniye bekle
+
+# Giriste varsa modal onaylanir
+* "Kullanici girisinde modal varsa geciliyor..." mesaji bastirilir
+* Element var mi kontrol et ""
+* "3" saniye bekle
+* Element "" varsa tikla
+* "1" saniye bekle
+
+# <msg> mesaji bastirilir
+* <msg> mesajini bastir - dbgInfo: "true"
+
+# Sayfa yenilenir
+* Refresh page
+* Element var mi kontrol et ""
+* "Sayfa yenilendi." mesaji bastirilir
+* "1" saniye bekle
+
+# <key> elementinin aktiflik durumunu dogrula
+* "1" saniye bekle
+* <key> elementi aktif mi kontrol et
+* "500" milisaniye bekle
+* Elementi bekle ve sonra tikla <key>
+* "1" saniye bekle
+
+# <key> elementinin inaktiflik durumunu dogrula
+* "1" saniye bekle
+* <key> elementi aktif degil mi kontrol et
+* "1" saniye bekle
+
+# <element> elementine <value> degeri yazilir
+* Element var mi kontrol et <element>
+* <element> elementindeki tum texti sil
+* "250" milisaniye bekle
+* <value> textini <element> elemente yaz
+* "250" milisaniye bekle
+* "# # degeri elemente yazildi." textindeki "# #" ile isaretli bolumu <value> texti ile degistir ve bastir
+
+# <element> elementine <value> degeri js ile yazilir
+* Element var mi kontrol et <element>
+* <element> elementindeki tum texti sil - js
+* "250" milisaniye bekle
+* <element> elementine <value> degerini js ile yaz
+* "250" milisaniye bekle
+* "# # degeri elemente yazildi." textindeki "# #" ile isaretli bolumu <value> texti ile degistir ve bastir
+
+# <key> dropdowndan <value> degeri secilir
+* <key> elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* <key> comboboxtan <value> degerini sec
+
+# Open Money Transfer butonu tiklanir
+* "openMoneyTransferButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* Element var mi kontrol et "editAccountButton"
+
+# Ilk islem sayisi kaydedilir
+* "5" saniye bekle
+* "transactions" keyi ile goruntulenen eleman sayisi hashmape kaydet - "transactionCount1"
+* "transactionCount1" keyi ile hashpmapte bulunan degerini sayisal islem yapilabilir hale getir ve double olarak sakla - locale: ""
+
+# Ikinci islem sayisi kaydedilir
+* "transactions" keyi ile goruntulenen eleman sayisi hashmape kaydet - "transactionCount2"
+* "transactionCount2" keyi ile hashpmapte bulunan degerini sayisal islem yapilabilir hale getir ve double olarak sakla - locale: ""
+
+# Geri butonu tiklanir
+* "backButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+
+# Islem sonrasi islem sayisinin bir arttigi dogrulanir
+* Hashmapte "transactionCount1" ve "transactionCount2" elemanlarinin farkinin "1" oldugu dogrulanir

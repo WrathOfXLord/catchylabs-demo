@@ -1,0 +1,167 @@
+[
+    {
+        "key": "closeButton",
+        "value": "div[style*='anticon']",
+        "type": "css"
+    },
+    {
+        "key": "logoutButton",
+        "value": "//div[text()='Logout']",
+        "type": "xpath"
+    },
+    {
+        "key": "backButton",
+        "value": "//div[text()='Back']",
+        "type": "xpath"
+    },
+    {
+        "key": "usernameInputField",
+        "value": "input[placeholder='Username']",
+        "type": "css"
+    },
+    {
+        "key": "passwordInputField",
+        "value": "input[placeholder='Password']",
+        "type": "css"
+    },
+    {
+        "key": "loginButton",
+        "value": "//div[text()='Login']",
+        "type": "xpath"
+    },
+    {
+        "key": "openMoneyTransferButton",
+        "value": "//div[text()='Open Money Transfer']",
+        "type": "xpath"
+    },
+    {
+        "key": "editAccountButton",
+        "value": "//div[text()='Edit account']",
+        "type": "xpath"
+    },
+    {
+        "key": "editAccountNameInputField",
+        "value": "input[placeholder]",
+        "type": "css"
+    },
+    {
+        "key": "updateAccountButton",
+        "value": "//div[text()='UPDATE']",
+        "type": "xpath"
+    },
+    {
+        "key": "accountNameText",
+        "value": "//div[text()='Account name']/following-sibling::div",
+        "type": "xpath"
+    },
+    {
+        "key": "accountTypeText",
+        "value": "//div[text()='Account type']/following-sibling::div",
+        "type": "xpath"
+    },
+    {
+        "key": "accountCreationTimeText",
+        "value": "//div[text()='Creation time']/following-sibling::div",
+        "type": "xpath"
+    },
+    {
+        "key": "accountBalanceText",
+        "value": "//div[text()='Amount']/following-sibling::div",
+        "type": "xpath"
+    },
+    {
+        "key": "TransferMoneyButton",
+        "value": "//div[text()='Transfer money']",
+        "type": "xpath"
+    },
+    {
+        "key": "senderAccountDropdown",
+        "value": "(//select)[1]",
+        "type": "xpath"
+    },
+    {
+        "key": "receiverAccountDropdown",
+        "value": "(//select)[2]",
+        "type": "xpath"
+    },
+    {
+        "key": "amountSentInputField",
+        "value": "//div[text()='Amount']/following-sibling::div/input",
+        "type": "xpath"
+    },
+    {
+        "key": "sendButton",
+        "value": "//div[text()='Send']",
+        "type": "xpath"
+    },
+    {
+        "key": "addMoneyButton",
+        "value": "//div[text()='Add money']",
+        "type": "xpath"
+    },
+    {
+        "key": "cardNumberInputField",
+        "value": "//div[text()='Card number']/following-sibling::input",
+        "type": "xpath"
+    },
+    {
+        "key": "cardHolderInputField",
+        "value": "//div[text()='Card holder']/following-sibling::input",
+        "type": "xpath"
+    },
+    {
+        "key": "cardExpiryInputField",
+        "value": "//div[text()='Expiry date']/following-sibling::input",
+        "type": "xpath"
+    },
+    {
+        "key": "cardCVVInputField",
+        "value": "//div[text()='CVV']/following-sibling::input",
+        "type": "xpath"
+    },
+    {
+        "key": "cardAmountInputField",
+        "value": "//div[text()='Amount']/following-sibling::input",
+        "type": "xpath"
+    },
+    {
+        "key": "cardAddButton",
+        "value": "//div[text()='Add']",
+        "type": "xpath"
+    },
+    {
+        "key": "senderText",
+        "value": "//div[text()='Sender:']/following-sibling::div",
+        "type": "xpath"
+    },
+    {
+        "key": "receiverText",
+        "value": "//div[text()='Receiver:']/following-sibling::div",
+        "type": "xpath"
+    },
+    {
+        "key": "transactionTime",
+        "value": "//div[text()='Time:']/following-sibling::div",
+        "type": "xpath"
+    },
+    {
+        "key": "transactionAmount",
+        "value": "//div[text()='Amount:']/following-sibling::div",
+        "type": "xpath"
+    },
+    {
+        "key": "transactions",
+        "value": "(//div[text()='Transactions' ]/following-sibling::div)[1]/div/div",
+        "type": "xpath"
+    },
+    {
+        "key": "firstTransaction",
+        "value": "((//div[text()='Transactions' ]/following-sibling::div)[1]/div/div)[1]",
+        "type": "xpath"
+    },
+    {
+        "key": "lastTransaction",
+        "value": "((//div[text()='Transactions' ]/following-sibling::div)[1]/div/div)[last()]",
+        "type": "xpath"
+    }
+]

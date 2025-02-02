@@ -1,0 +1,28 @@
+
+# Para ekle butonu tiklanir
+* "addMoneyButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* Element var mi kontrol et "cardNumberInputField"
+
+# Ornek kart bilgileri girilir
+* "cardNumberInputField" elementine "1234123412341234" degeri yazilir
+* "cardHolderInputField" elementine "Ali Firat Ozel" degeri yazilir
+* "cardExpiryInputField" elementine "10/26" degeri yazilir
+* "cardCVVInputField" elementine "110" degeri yazilir
+
+# <amount> tutarinda deger amount alanina girilir
+* "cardAmountInputField" elementine <amount> degeri yazilir
+
+# Ekle butonu tiklanir
+* "cardAddButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* "addMoneyButton" elementinin tiklanabilir oldugu dogrulanir
+
+# Hesaptaki ilk para degerini kaydet
+* "accountBalanceText" elementinin "text" degerini hashmape kaydet - crop: "", key: "balance1"
+* "balance1" keyi ile hashpmapte bulunan degerini sayisal islem yapilabilir hale getir ve double olarak sakla - locale: ""
+
+# Hesaptaki ikinci para degerini kaydet
+* "accountBalanceText" elementinin "text" degerini hashmape kaydet - crop: "", key: "balance2"
+* "balance2" keyi ile hashpmapte bulunan degerini sayisal islem yapilabilir hale getir ve double olarak sakla - locale: ""
+
+# Hesaba eklenen para miktarinin <value> oldugu dogrulanir
+* Hashmapte "balance1" ve "balance2" elemanlarinin farkinin <value> oldugu dogrulanir

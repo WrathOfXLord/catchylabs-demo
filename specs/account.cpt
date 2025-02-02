@@ -1,0 +1,13 @@
+# Edit Account butonu tiklanir
+* "editAccountButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* Element var mi kontrol et "editAccountNameInputField"
+
+# Account name alanina <value> degeri girilir
+* "editAccountNameInputField" elementine <value> degeri yazilir
+
+# Update Account butonu tiklanir
+* "updateAccountButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* "250" milisaniye bekle
+
+# Hesap adinin yalnizca sayi icermedigi dogrulanir
+* "accountNameText" elementinin yalnizca sayi icermedigini dogrula

@@ -1,0 +1,20 @@
+# Para transferi butonu tiklanir
+* "TransferMoneyButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+
+# Gonderici hesap <value> olarak secilir
+* "senderAccountDropdown" dropdowndan <value> degeri secilir
+* "1" saniye bekle
+
+# Alici hesap <value> olarak secilir
+* "receiverAccountDropdown" dropdowndan <value> degeri secilir
+* "1" saniye bekle
+
+# Transfer tutari <value> olarak girilir
+* "amountSentInputField" elementine <value> degeri yazilir
+
+# Gonder butonu tiklanir
+* "sendButton" elementinin tiklanabilir oldugu dogrulanir ve tiklanir
+* "TransferMoneyButton" elementinin tiklanabilir oldugu dogrulanir
+
+# Son islemin <value> tutarini icerdigi dogrulanir
+* "firstTransaction" elementi veya child elementlerinin <value> metnini icerdigini dogrula
